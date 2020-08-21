@@ -20,3 +20,17 @@ label{vertical-align:middle;cursor:pointer;}
 input[type="text"]::-ms-clear {
   display: none;
 }
+
+
+/* ui */
+.container {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.defulat-input {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
