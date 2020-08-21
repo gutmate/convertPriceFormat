@@ -1,0 +1,22 @@
+/* reset */
+html{-webkit-text-size-adjust:none;-webkit-overflow-scrolling:touch;}
+body{font-family:Arial,sans-serif;font-size:14px;line-height:1.125;color:#666;word-break:keep-all;word-wrap:break-word;}
+a,article,aside,body,button,dd,div,dl,dt,em,fieldset,footer,form,h1,h2,h3,h4,h5,h6,header,input,li,nav,ol,p,section,span,strong,table,td,textarea,th,tr,ul{margin:0;padding:0;box-sizing:border-box;-webkit-overflow-scrolling:touch;}
+h1,h2,h3,h4,h5,h6{font-weight:400;font-size:inherit;}
+li,ol,ul{list-style:none;}
+caption,legend{font-size:0;width:0;height:0;line-height:0;overflow:hidden;text-indent:-9999px;}
+hr{position:absolute;left:-1000%;top:0;width:1px;height:1px;font-size:0;line-height:0;overflow:hidden;}
+fieldset{border:none;}
+a{text-decoration:none;color:inherit;}
+a:active,a:hover,a:visited{text-decoration:none;}
+img{border:0;vertical-align:top;}
+button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:1.125;vertical-align:middle;}
+button{border:0;background-color:transparent;cursor:pointer;text-align:left;color:#666;}
+address,em{font-style:normal;}
+table{width:100%;table-layout:fixed;border-collapse:collapse;}
+label{vertical-align:middle;cursor:pointer;}
+/* ::selection {background:transparent;}
+::-moz-selection {background:transparent;} */
+input[type="text"]::-ms-clear {
+  display: none;
+}
